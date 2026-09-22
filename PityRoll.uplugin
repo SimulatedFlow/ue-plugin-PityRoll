@@ -1,27 +1,27 @@
 {
-  "FileVersion": 3,
-  "Version": 1,
-  "VersionName": "1.0.0",
-  "EngineVersion": "5.8.0",
-  "FriendlyName": "PityRoll - Bad-Luck Protection & Drop Guarantees",
-  "Description": "A drop chance of five percent means somebody goes eighty tries without it, and that player does not think 'variance' - that player thinks the game is broken. PityRoll is the layer that puts a floor under bad luck. It counts consecutive misses PER ENTRY, so a common drop cannot reset the counter that was building towards the rare one. Soft pity raises the chance as the misses pile up, hard pity guarantees the drop on an attempt you can name - and the guarantee lands on exactly that attempt, not one early and not one late, because an off-by-one here is invisible until a player counts. The effective chance is a pure function, so the number your UI shows is the number the roll actually used; a displayed chance that disagrees with the roll is worse than showing nothing. A natural success inside the pity window consumes the counter exactly once, so nobody gets the drop and keeps the protection. Every rule is a pure function the component and the tests both call.",
-  "Category": "Gameplay",
-  "CreatedBy": "Silvan Teufel",
-  "CreatedByURL": "https://silvan.teufel-engineering.com",
-  "DocsURL": "https://wiki.teufel-engineering.com/en/PityRoll/documentation",
-  "SupportURL": "mailto:teufelsilvan@gmail.com",
-  "CanContainContent": true,
-  "IsBetaVersion": false,
-  "IsExperimentalVersion": false,
-  "Installed": false,
-  "Modules": [
-    {
-      "LoadingPhase": "PreDefault",
-      "PlatformAllowList": [
-        "Win64"
-      ],
-      "Name": "PityRoll",
-      "Type": "Runtime"
-    }
-  ]
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0.0",
+	"EngineVersion": "5.8.0",
+	"FriendlyName": "PityRoll - Bad-Luck Protection & Drop Guarantees",
+	"Description": "A drop chance of five percent means somebody goes eighty tries without it, and that player does not think 'variance' - that player thinks the game is broken. PityRoll is the layer that puts a floor under bad luck. It counts consecutive misses PER ENTRY, so a common drop cannot reset the counter that was building towards the rare one. Soft pity raises the chance as the misses pile up, hard pity guarantees the drop on an attempt you can name - and the guarantee lands on exactly that attempt, not one early and not one late, because an off-by-one here is invisible until a player counts. The effective chance is a pure function, so the number your UI shows is the number the roll actually used; a displayed chance that disagrees with the roll is worse than showing nothing. A natural success inside the pity window consumes the counter exactly once, so nobody gets the drop and keeps the protection. Every rule is a pure function the component and the tests both call.",
+	"Category": "Gameplay",
+	"CreatedBy": "Silvan Teufel",
+	"CreatedByURL": "https://silvan.teufel-engineering.com",
+	"DocsURL": "https://wiki.teufel-engineering.com/en/PityRoll/documentation",
+	"SupportURL": "mailto:teufelsilvan@gmail.com",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"LoadingPhase": "PreDefault",
+			"PlatformAllowList": [
+				"Win64"
+			],
+			"Name": "PityRoll",
+			"Type": "Runtime"
+		}
+	]
 }
